@@ -1,7 +1,7 @@
 
 # Open-Webui-Function-Tencent-Hunyuan-AI
 
-[中文](README_CN.txt) | English
+[中文](README_CN.md) | English
 
 A plugin for Open-Webui to access Tencent Hunyuan LLM via API key.
 
