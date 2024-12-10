@@ -44,4 +44,4 @@ A plugin for Open-Webui to access Tencent Hunyuan LLM via API key.
 
 
 ## Usage
-After installation, use your Tencent Cloud API key to enable access to Hunyuan LLM in Open-Webui. Check the [official documentation](https://cloud.tencent.com/document/product/xxx) for API details.
+After installation, use your Tencent Cloud API key to enable access to Hunyuan LLM in Open-Webui. Check the [official documentation](llm.hunyuan.tencent.com) for API details.
