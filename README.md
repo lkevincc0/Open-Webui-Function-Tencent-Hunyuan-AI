@@ -13,8 +13,10 @@ A plugin for Open-Webui to access Tencent Hunyuan LLM via API key.
 - **Docker Compatibility**: Works seamlessly with Docker setups like Unraid.
 
 ---
+## prerequisite
+1. Make sure you have SECRET_ID and SECRET_KEY, which can get on tencent clound website.
 
-## Installation Guide
+## Configuratoin Guide
 
 1. Open the Open-Webui console.
 2. Clone the TencentCloud SDK repository:
@@ -29,8 +31,17 @@ A plugin for Open-Webui to access Tencent Hunyuan LLM via API key.
    ```bash
    pip install .
    ```
+5. Go to oenwebui offical website to get function or just copy main.py to your funcation library.
+   ```bash
+   https://openwebui.com/f/lkevincc/tencent_hunyuanai
+   ```
+6. Nav to function page and click configure button set SECRET_ID and SECRET_KEY, which can get on tencent clound website.
 
 ---
+## Others
+
+1. You can find logo [here](https://lobehub.com/icons/hunyuan)
+
 
 ## Usage
 After installation, use your Tencent Cloud API key to enable access to Hunyuan LLM in Open-Webui. Check the [official documentation](https://cloud.tencent.com/document/product/xxx) for API details.
