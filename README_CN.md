@@ -1,22 +1,17 @@
 
 # Open-Webui-Function-Tencent-Hunyuan-AI
 
-[English](README.md) | 中文
+[English](README_EN.md) | 中文
 
 用于 Open-Webui 的插件，通过 API 密钥接入腾讯混元大模型。
 
 ---
+## 前置条件
+1. 确保您拥有 SECRET_ID 和 SECRET_KEY，可在腾讯云官网获取。
 
-## 功能特色
-- **接入腾讯混元大模型**：在 Open-Webui 中直接使用强大的语言处理能力。
-- **简单设置**：快速开始，配置简单。
-- **支持 Docker**：无缝兼容如 Unraid 的 Docker 部署。
+## 配置指南
 
----
-
-## 安装指南
-
-1. 打开 Open-Webui 控制台。
+1. 打开 Open-Webui 的Docker控制台。
 2. 克隆 TencentCloud SDK 仓库：
    ```bash
    git clone https://gitee.com/tencentcloud/tencentcloud-sdk-python.git
@@ -29,8 +24,16 @@
    ```bash
    pip install .
    ```
+5. 前往 OpenWebui 官方网站获取功能模块，或直接将 main.py 复制到您的功能库中。
+   ```bash
+   https://openwebui.com/f/lkevincc/tencent_hunyuanai
+   ```
+6. 进入功能页面，点击配置按钮，设置 SECRET_ID 和 SECRET_KEY，可在腾讯云官网获取。
 
 ---
+## 其他信息
+
+1. 您可以在 [此处](https://lobehub.com/icons/hunyuan) 获取 Logo。
 
 ## 使用方法
-安装完成后，通过您的腾讯云 API 密钥在 Open-Webui 中启用混元大模型访问功能。有关 API 详细信息，请查看[官方文档](https://cloud.tencent.com/document/product/xxx)。
+安装完成后，通过您的腾讯云 API 密钥在 Open-Webui 中启用混元大模型访问功能。有关 API 详细信息，请查看[官方文档](llm.hunyuan.tencent.com)。
