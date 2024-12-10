@@ -6,19 +6,12 @@
 A plugin for Open-Webui to access Tencent Hunyuan LLM via API key.
 
 ---
-
-## Features
-- **Integrates Tencent Hunyuan LLM**: Access powerful language processing capabilities directly within Open-Webui.
-- **Simple Setup**: Get started quickly with minimal configuration.
-- **Docker Compatibility**: Works seamlessly with Docker setups like Unraid.
-
----
 ## prerequisite
 1. Make sure you have SECRET_ID and SECRET_KEY, which can get on tencent clound website.
 
 ## Configuratoin Guide
 
-1. Open the Open-Webui console.
+1. Open the Open-Webui Docker console.
 2. Clone the TencentCloud SDK repository:
    ```bash
    git clone https://gitee.com/tencentcloud/tencentcloud-sdk-python.git
